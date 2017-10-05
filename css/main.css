@@ -38,11 +38,11 @@ a:not(.no-highlight) {
   background-color: #2694d8;
 }
 
-li ol: first-child {
+[li ol: first-child] {
   color: #719e47;
 }
 
-li ol: last-child {
+[li ol: last-child] {
   color: #2aa198;
 }
 
@@ -54,5 +54,5 @@ li ol: last-child {
 }
 
 .types > li:nth-child(3) {
-  background-color: #d04b16
+  background-color: #d04b16;
 }
